@@ -10,7 +10,7 @@
     "build": "tsc",
     "start": "ENV_FILE=./config/.env.prod node -r tsconfig-paths/register ./bin/app.js",
     "dev": "ENV_FILE=./config/.env.dev ts-node -r tsconfig-paths/register ./src/app.ts",
-    "test:unit": "ENV_FILE=./config/.env.test jest"
+    "test": "ENV_FILE=./config/.env.test jest"
   },
   "dependencies": {
     "@types/bcrypt": "^3.0.0",
